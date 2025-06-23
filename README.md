@@ -9,11 +9,11 @@
 
 - 🔭 I worked on the [cub3d project](https://github.com/PGBmax/cub3D)
 
-- 🌱 I’m currently learning **C++**
-
 - 🔭 and [Minishell project](https://github.com/Izzokz/42-minishell)
 
-- 🤝 I’m looking for help with **CPP Projects**
+- 🤝 I’m looking for help with [CPP Projects](https://github.com/PGBmax/CPP)
+
+- 🌱 I’m currently learning **C++**
 
 - 💬 Ask me about **graphics project**
 
