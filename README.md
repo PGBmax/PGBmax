@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm PGBmax</h1>
-<h3 align="center">42 Student at Angouleme</h3>
+<h3 align="center">Student at 42 Angoulême</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pgbmax&label=Profile%20views&color=0e75b6&style=flat" alt="pgbmax" /> </p>
 
