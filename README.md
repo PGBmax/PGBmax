@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm PGBmax</h1>
 <h3 align="center">Student at 42 Angoulême</h3>
 
-[![pboucher's 42 stats](https://badge.mediaplus.ma/darkblue/pboucher?1337Badge=off&UM6P=off)](https://github.com/pgbmax)
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pgbmax&label=Profile%20views&color=0e75b6&style=flat" alt="pgbmax" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pgbmax" alt="pgbmax" /></a> </p>
