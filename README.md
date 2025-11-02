@@ -32,7 +32,7 @@ A Unix shell implementation with advanced features and built-in commands.
 
 ### 🔧 [CPP Projects Collection](https://github.com/PGBmax/CPP)
 Comprehensive collection of C++ projects showcasing object-oriented programming principles.
-- **Tech Stack:** C++98/11/14
+- **Tech Stack:** C++98
 - **Focus:** OOP, design patterns, STL containers
 
 ## 🛠️ Technologies & Tools
