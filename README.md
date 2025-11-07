@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👋 Hello, I'm Pierre (PGBmax)</h1>
-  <h3>🎓 Computer Science Student at 42 Angoulême</h3>
+  <h3>🎓 Student at 42 Angoulême</h3>
   
   <p>
     <img src="https://komarev.com/ghpvc/?username=pgbmax&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
