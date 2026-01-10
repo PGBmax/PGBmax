@@ -36,11 +36,6 @@ An IRC server implementation following the RFC 1459 standard.
 - **Focus:** OOP architecture, design patterns, network programming
 - **Features:** Multi-client handling with poll(), user authentication, channel management, and command parsing
 
-### 🔧 [CPP Projects Collection](https://github.com/PGBmax/CPP)
-Comprehensive collection of C++ projects showcasing object-oriented programming principles.
-- **Tech Stack:** C++98
-- **Focus:** OOP, design patterns, STL containers
-
 ## 🛠️ Technologies & Tools
 
 <div align="center">
