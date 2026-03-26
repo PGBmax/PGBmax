@@ -1,66 +1,157 @@
 <div align="center">
-  <h1>👋 Hello, I'm Pierre (PGBmax)</h1>
-  <h3>🎓 Student at 42 Angoulême</h3>
-  
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=pgbmax&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/pgbmax?label=Followers&style=social" alt="GitHub Followers" />
-  </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0e75b6&height=200&section=header&text=Pierre%20%E2%80%94%20PGBmax&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=42%20Angoul%C3%AAme%20%7C%20Systems%20%26%20Graphics%20Dev&descAlignY=58&descSize=20&animation=fadeIn" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0e75b6&center=true&vCenter=true&width=600&lines=Low-level+%26+systems+programmer;C+%2F+C%2B%2B+enthusiast;42+student+grinding+daily;Building+things+from+scratch;Raytracing+%7C+IRC+%7C+Shells+%7C+and+more..." alt="Typing SVG" />
+</a>
+
+<br/>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=pgbmax&label=Profile+views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/pgbmax?label=Followers&style=for-the-badge&color=0e75b6&labelColor=1a1b27" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/42-Angoul%C3%AAme-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 School" />
+</p>
+
 </div>
 
 ---
 
-## 🚀 About Me
+## 🧬 About Me
 
-- 🎮 **Passionate developer** exploring the world of systems programming and graphics
-- 🔭 **Currently working on:** Advanced C++ projects and network programming
-- 🌱 **Learning:** Modern C++ features, network protocols, and software architecture
-- 💡 **Interested in:** Graphics programming, game development, and system-level programming
-- 🎯 **Goal:** Becoming a proficient software engineer with expertise in low-level programming
+```c
+typedef struct  s_pierre
+{
+    char    *name;          // "Pierre — PGBmax"
+    char    *school;        // "42 Angoulême"
+    char    *focus[];       // { "Systems", "Graphics", "Network", "C++", NULL }
+    char    *currently;     // "Pushing limits one project at a time"
+    bool    open_to_work;   // true
+}               t_pierre;
+```
+
+- 🏫 Student at **42 Angoulême** — peer-to-peer, project-based, no teachers, no mercy
+- 🔭 Currently building **advanced C++** projects and diving deep into **network programming**
+- 🎮 Love graphic engines, raytracing math, and reinventing the wheel **from scratch**
+- ⚡ Strong believer that **low-level = real power**
+- 🎯 Goal: Expert software engineer with mastery of **system-level & graphics programming**
+
+---
 
 ## 💼 Featured Projects
 
-### 🎮 [Cub3D](https://github.com/PGBmax/cub3D)
-A 3D graphics project inspired by Wolfenstein 3D, built with C and raytracing techniques.
-- **Tech Stack:** C, MiniLibX, Mathematics
-- **Features:** Real-time 3D rendering, texture mapping, collision detection
-
-### 💻 [Minishell](https://github.com/Izzokz/42-minishell)
-A Unix shell implementation with advanced features and built-in commands.
-- **Tech Stack:** C, Unix system calls
-- **Features:** Command parsing, pipes, redirections, environment variables
-
-### 🌐 [FT_IRC](https://github.com/PGBmax/ft_irc)
-An IRC server implementation following the RFC 1459 standard.
-- **Tech Stack:** C++98, Sockets, STL
-- **Focus:** OOP architecture, design patterns, network programming
-- **Features:** Multi-client handling with poll(), user authentication, channel management, and command parsing
-
-## 🛠️ Technologies & Tools
-
 <div align="center">
 
-### Programming Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Makefile](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=cmake&logoColor=white)
-
-### Concepts & Methodologies
-- 🏗️ **Object-Oriented Programming (OOP)**
-- 🔗 **Data Structures & Algorithms**
-- 🖼️ **Graphics Programming & Raytracing**
-- 🌐 **Network Programming & Protocols**
-- ⚡ **System Programming & Unix**
+| Project | Description | Stack | Link |
+|--------|-------------|-------|------|
+| 🎮 **Cub3D** | Wolfenstein-inspired 3D engine with raytracing | `C` `MiniLibX` `Math` | [→](https://github.com/PGBmax/cub3D) |
+| 💻 **Minishell** | Full Unix shell with pipes, redirections & builtins | `C` `Unix syscalls` | [→](https://github.com/Izzokz/42-minishell) |
+| 🌐 **ft_irc** | RFC 1459 compliant IRC server, multi-client | `C++98` `Sockets` `poll()` | [→](https://github.com/PGBmax/ft_irc) |
 
 </div>
 
-## 🤝 Let's Connect!
+<details>
+<summary><b>📂 Project details (expand)</b></summary>
+
+<br/>
+
+### 🎮 Cub3D
+> A 3D game engine built **from zero** — no OpenGL, no shortcuts.
+
+- Real-time raycasting rendering (à la Wolfenstein 3D)
+- Texture mapping, wall / floor / ceiling colors
+- Collision detection, smooth player movement
+- **Takeaway:** Deep dive into geometry, trigonometry & graphics pipelines
+
+---
+
+### 💻 Minishell
+> If you've never written a shell, you don't know Unix.
+
+- Full command parsing with `lexer → parser → executor` pipeline
+- Native `pipe()`, `dup2()`, `fork()`, `execve()` — no `system()`
+- Redirections (`<`, `>`, `<<`, `>>`), environment variables, exit codes
+- **Takeaway:** Unix process model, file descriptors, signal handling
+
+---
+
+### 🌐 ft_irc
+> RFC 1459 IRC server handling dozens of simultaneous clients.
+
+- Non-blocking I/O with `poll()`, zero active-wait loops
+- Full command set: `NICK`, `USER`, `JOIN`, `PRIVMSG`, `MODE`, `KICK`, `INVITE`, `TOPIC`
+- OOP architecture in **strict C++98** — channels, users, server as objects
+- **Takeaway:** Network programming, protocol design, concurrency without threads
+
+</details>
+
+---
+
+## 🛠️ Stack
+
+<div align="center">
+
+### Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+### Tools & Environment
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Make](https://img.shields.io/badge/Make-427819?style=for-the-badge&logo=cmake&logoColor=white)
+![Valgrind](https://img.shields.io/badge/Valgrind-8B0000?style=for-the-badge&logoColor=white)
+
+### Domains
+![Systems Programming](https://img.shields.io/badge/Systems_Programming-1a1b27?style=for-the-badge&logo=assemblyscript&logoColor=0e75b6)
+![Graphics](https://img.shields.io/badge/Graphics_&_Raytracing-1a1b27?style=for-the-badge&logo=opengl&logoColor=0e75b6)
+![Network](https://img.shields.io/badge/Network_Programming-1a1b27?style=for-the-badge&logo=cisco&logoColor=0e75b6)
+![OOP](https://img.shields.io/badge/OOP_&_Design_Patterns-1a1b27?style=for-the-badge&logo=cplusplus&logoColor=0e75b6)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pgbmax&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pgbmax&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=pgbmax&theme=tokyonight&hide_border=true&background=0d1117&fire=0e75b6&ring=0e75b6&currStreakLabel=0e75b6" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pgbmax&theme=tokyo-night&bg_color=0d1117&color=0e75b6&line=0e75b6&point=ffffff&hide_border=true" alt="Activity Graph" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pgbmax&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pgbmax/pgbmax/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pgbmax/pgbmax/output/github-contribution-grid-snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/pgbmax/pgbmax/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+---
+
+## 🤝 Connect
 
 <div align="center">
   <a href="https://twitter.com/pgbmax">
@@ -69,35 +160,19 @@ An IRC server implementation following the RFC 1459 standard.
   <a href="https://instagram.com/levi_colo">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pgbmax&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pgbmax&layout=compact&langs_count=8&theme=tokyonight"/>
-  
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pgbmax&theme=tokyonight" alt="GitHub Streak Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pgbmax&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4" alt="GitHub Trophies" />
 </div>
 
 ---
 
 <div align="center">
-  
-  **⚡ "Code is like humor. When you have to explain it, it's bad."** 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:0d1117&height=100&section=footer" />
+</div>
+
+<div align="center">
+
+  **`/* Code is like humor — when you have to explain it, it's bad. */`**
+
+ 
   
   *Thanks for visiting my profile! Feel free to explore my repositories and reach out if you'd like to collaborate! 🚀*
   
