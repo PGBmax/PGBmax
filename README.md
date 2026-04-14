@@ -21,14 +21,36 @@
 ## 🧬 About Me
 
 ```c
-typedef struct  s_pierre
+#include <stdlib.h>
+
+typedef struct  s_pboucher
 {
-    char    *name;          // "Pierre — PGBmax"
-    char    *school;        // "42 Angoulême"
-    char    *focus[];       // { "Systems", "Graphics", "Network", "C++", NULL }
-    char    *currently;     // "Pushing limits one project at a time"
-    bool    open_to_work;   // true
-}               t_pierre;
+    char        *name;
+    char        *nickname;
+    int         age;
+    char        *school;
+    char        *best_project_made;
+    char        **hobbies;
+}               t_pboucher;
+
+int main(void)
+{
+    t_pboucher  me;
+    char        *my_hobbies[] = {
+        "Systems",
+        "Graphics",
+        "Network",
+        "C++",
+        NULL
+    };
+
+    me.name = "Pierre";
+    me.age = 19;
+    me.school = "42 Angouleme";
+    me.best_project_made = "Cub3D";
+    me.hobbies = my_hobbies;
+    return (0);
+}
 ```
 
 - 🏫 Student at **42 Angoulême** — peer-to-peer, project-based, no teachers, no mercy
